@@ -17,18 +17,30 @@
           }
         }
       </script>
-      <!-- daisyUI CDN -->
+    <!-- daisyUI CDN -->
       <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
       <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome  -->
+      <script src="https://kit.fontawesome.com/2a6fe9caab.js" crossorigin="anonymous"></script>
+    <!-- Google font manrope -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+            .manrope {
+            font-family: "Manrope", sans-serif;
+          }
+    </style>    
 </head>
-<body>
+<body class="manrope">
   <header>
-    <div class="navbar bg-base-100">
-      <div class="navbar-start">
-        <a class="btn btn-ghost text-xl">Rinterio</a>
+    <div class="navbar bg-base-100 container mx-auto flex items-center">
+      <div class="navbar-start ">
+        <i class="fa-solid fa-arrow-right text-2xl bg-lime-400 pd rounded-full px-1.5 -rotate-45"></i>
+        <a class="text-4xl font-bold">Rinterio</a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
+        <ul class="menu menu-horizontal px-1 text-xl">
           <li><a>Home</a></li>
           <li><a>Services</a></li>
           <li><a>Portfolio</a></li>
@@ -36,8 +48,10 @@
           <li><a>Contact Us</a></li>
         </ul>
       </div>
-      <div class="navbar-end">
-        <a class="btn">Button</a>
+      <div class="navbar-end flex gap-5">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <a class="btn bg-lime-400 text-xl font-bold rounded-full">Book Consult<i class="fa-solid fa-arrow-right text-2xl bg-blue-950 text-white pd rounded-full px-1.5 -rotate-45"></i></a>
         <div class="dropdown">
           <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
             <svg
