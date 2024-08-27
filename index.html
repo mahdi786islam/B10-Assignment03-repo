@@ -34,10 +34,11 @@
 </head>
 <body class="manrope">
   <header>
-    <div class="navbar bg-base-100 container mx-auto flex items-center">
-      <div class="navbar-start ">
+    <!-- navbar section -->
+    <div class="navbar bg-base-100 container mx-auto">
+      <div class="navbar-start">
         <i class="fa-solid fa-arrow-right text-2xl bg-lime-400 pd rounded-full px-1.5 -rotate-45"></i>
-        <a class="text-4xl font-bold">Rinterio</a>
+        <a class="text-3xl font-bold">Rinterio</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 text-xl">
@@ -45,41 +46,47 @@
           <li><a>Services</a></li>
           <li><a>Portfolio</a></li>
           <li><a>Blogs</a></li>
-          <li><a>Contact Us</a></li>
+          <li><a>Contact us</a></li>
         </ul>
       </div>
-      <div class="navbar-end flex gap-5">
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-cart-shopping"></i>
-        <a class="btn bg-lime-400 text-xl font-bold rounded-full">Book Consult<i class="fa-solid fa-arrow-right text-2xl bg-blue-950 text-white pd rounded-full px-1.5 -rotate-45"></i></a>
-        <div class="dropdown">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </div>
-          <ul
-            tabindex="0"
-            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
-            <li><a>Services</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs</a></li>
-            <li><a>Contact Us</a></li>
-          </ul>
+      <div class="navbar-end">
+        <a class="btn hidden font-bold bg-lime-400 rounded-full lg:inline-flex">Book Consult<i class="fa-solid fa-arrow-right text-2xl bg-blue-950 text-white pd rounded-full px-1.5 -rotate-45"></i></a>
+      </div>
+      <div>
+        <i class="fa-solid fa-bars lg:hidden"></i>
+      </div>
+    </div>
+    <!-- Hero section -->
+    <div class="hero min-h-screen">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <img src="/assets/banner.png" alt="">
+          <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+          <p class="py-6">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+          </p>
+          <button class="btn bg-lime-200 text-xl font-bold rounded-full">View Details<i class="fa-solid fa-arrow-right text-2xl bg-lime-400 pd rounded-full px-1.5 -rotate-45"></i></button>
         </div>
       </div>
     </div>
   </header>
+  <main>
+    <!-- about us -->
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content flex-col lg:flex-row-reverse">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+          class="max-w-sm rounded-lg shadow-2xl" />
+        <div>
+          <h1 class="text-5xl font-bold">Box Office News!</h1>
+          <p class="py-6">
+            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+            quasi. In deleniti eaque aut repudiandae et a id nisi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
     
 </body>
 </html>
